@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --bg-color: #081b29;
+    --main-color: #00abf0;
+    --text-color: #333;
+    --second-text-color: #555;
+    --white-color: #fff;
+    --cover-color: linear-gradient(45deg, #00abf0, #006e9a);
+    --pages-color: linear-gradient(90deg, #00abf0, #006e9a);
+    --border: 125rem solid #00abf0;
+    --box-shadow: 0 0 .6rem(0, 0, 0, 2);
+}
+
+body {
+    height: 100hv;
+    background: url("/assets/images/scifi1.jpg") no-repeat center / cover;
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.mycontainer{
+    position: relative;
+    height: 100%;
+    background: seagreen;
+    border-radius: 30px;
+}
+
+.navbar, .footer {
+    background-color: #1f1f1f;
+}
+.navbar-nav {
+    margin: auto;
+}
+.navbar-brand {
+    margin: auto;
+}
+.carousel-item {
+    background-color: #333;
+    color: #fff;
+}
+.section {
+    background: #1c1c1c;
+    border-radius: 15px;
+    padding: 30px;
+    margin: 15px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    animation-duration: 1s;
+}
+.section img {
+    border-radius: 15px;
+}
+.section h2, .section h3, .section h4, .section h5 {
+    color: #f39c12;
+}
+.card {
+    background-color: #2c3e50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+.card img {
+    border-radius: 15px 15px 0 0;
+}
+.footer {
+    background-color: #1f1f1f;
+    padding: 20px;
+}
+.footer .social-links a {
+    color: #1abc9c;
+    margin: 0 10px;
+    text-decoration: none;
+}
+.carousel-caption {
+    bottom: 20%;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Custom Animations */
+.animate__fadeInUp {
+    animation-name: fadeInUp;
+}
+.animate__fadeInLeft {
+    animation-name: fadeInLeft;
+}
+.animate__fadeInRight {
+    animation-name: fadeInRight;
+}
+.animate__fadeInDown {
+    animation-name: fadeInDown;
+}
